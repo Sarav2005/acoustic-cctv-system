@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+features.npz
+models/*.keras
+models/*.tflite
+dataset/*/*.wav
+!dataset/*/.gitkeep

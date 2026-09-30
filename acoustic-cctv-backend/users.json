@@ -1,0 +1,23 @@
+[ {
+  "id" : "def32131-ead8-4cf7-be9d-73e2c315bafb",
+  "username" : "admin",
+  "passwordHash" : "$2a$10$8FE/VFl3L4oLILPEYC2l9uQMSBUdgFTvsV8qUDOqVdhYuOb1tjMiu",
+  "role" : "ADMIN",
+  "displayName" : "Administrator",
+  "flatNumber" : null,
+  "status" : "APPROVED",
+  "requestedAt" : 1789897949.629110100,
+  "pendingPhotoPath" : null,
+  "profilePhotoPath" : null
+}, {
+  "id" : "85a873ef-d10f-496c-a411-7b04a24a6a13",
+  "username" : "Babu",
+  "passwordHash" : "$2a$10$09/6yMd1rA2d/4fxJBX/IeqrbtKxrcwGiXQpe8l/DE0E5IwVpv.bG",
+  "role" : "RESIDENT",
+  "displayName" : "Sharan Babu",
+  "flatNumber" : null,
+  "status" : "APPROVED",
+  "requestedAt" : 1790032471.395488500,
+  "pendingPhotoPath" : "D:\\acoustic-cctv-backend\\pending-enrollment-photos\\Babu_1790032471280.jpg",
+  "profilePhotoPath" : null
+} ]

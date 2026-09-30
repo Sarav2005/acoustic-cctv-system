@@ -1,0 +1,6 @@
+flask
+opencv-python-headless
+numpy
+pytesseract
+thefuzz
+python-Levenshtein

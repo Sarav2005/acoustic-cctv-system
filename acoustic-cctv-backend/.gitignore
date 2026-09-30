@@ -1,0 +1,6 @@
+target/
+*.class
+.idea/
+*.iml
+captured-images/
+.DS_Store

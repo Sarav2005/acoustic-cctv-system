@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Python environment files
+*.env
+.env
+.env.*
+
+# Java / Maven
+target/
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Runtime / generated files
+captures/
+captured-videos/
+uploads/
+
+# Python virtual environments
+acoustic-classifier/venv/
+anpr-service/venv/
+face-service/venv/
+
+# Large datasets
+datasets/
+dataset/
+data/
+
+# Temporary files
+*.tmp
+*.temp
+
+# ZIP backups
+*.zip
+
+
+# Project runtime captures
+**/webcam_captures/
+**/webcam_recordings/
+
+# ANPR test/output images
+anpr-service/candidate_*.jpg
+anpr-service/car*.jpeg
+anpr-service/car*.jpg
+
+# Face test/enrollment images
+face-service/test_photos/
+acoustic-cctv-backend/pending-enrollment-photos/
+
+# Bundled executables
+face-service/curl.exe
+
+# ML model files - review separately before committing
+face-service/yolov8n.pt

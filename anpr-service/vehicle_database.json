@@ -1,0 +1,66 @@
+{
+  "vehicles": [
+    {
+      "plate": "TN22AB1234",
+      "owner_name": "Placeholder Resident 1",
+      "flat_number": "A-101",
+      "vehicle_type": "car",
+      "status": "resident"
+    },
+    {
+      "plate": "TN07CD5678",
+      "owner_name": "Placeholder Resident 2",
+      "flat_number": "B-204",
+      "vehicle_type": "car",
+      "status": "resident"
+    },
+    {
+      "plate": "TN09EF4321",
+      "owner_name": "Placeholder Resident 3",
+      "flat_number": "C-305",
+      "vehicle_type": "bike",
+      "status": "resident"
+    },
+    {
+      "plate": "TN10GH9012",
+      "owner_name": "Placeholder Staff 1",
+      "flat_number": "N/A - Staff",
+      "vehicle_type": "car",
+      "status": "staff"
+    },
+    {
+      "plate": "TN01XY7788",
+      "owner_name": "Placeholder Resident 4",
+      "flat_number": "D-412",
+      "vehicle_type": "bike",
+      "status": "resident"
+    },
+    {
+      "plate": "AP03CB5634",
+      "owner_name": "<real name>",
+      "flat_number": "<real flat>",
+      "vehicle_type": "car",
+      "status": "resident"
+    },
+    {
+      "plate": "TN37DD6091",
+      "owner_name": "<real name>",
+      "flat_number": "<real flat>",
+      "vehicle_type": "car",
+      "status": "resident"
+    },
+    {
+      "plate": "TN05CW5983",
+      "owner_name": "<real name>",
+      "flat_number": "<real flat>",
+      "vehicle_type": "car",
+      "status": "resident"
+    },
+    {
+      "plate": "TN69BK7808",
+      "owner_name": "<real name>",
+      "flat_number": "<real flat>",
+      "vehicle_type": "car",
+      "status": "resident"}
+  ]
+}

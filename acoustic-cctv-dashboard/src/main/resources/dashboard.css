@@ -1,0 +1,209 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #12141c;
+}
+
+.sidebar {
+    -fx-background-color: #1a1d29;
+    -fx-padding: 20 12 20 12;
+    -fx-border-color: transparent #232838 transparent transparent;
+    -fx-border-width: 0 1 0 0;
+}
+.sidebar-logo {
+    -fx-text-fill: #f3f4f6;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 24 8;
+}
+.sidebar-nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9ca3af;
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 14 10 14;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-max-width: infinity;
+}
+.sidebar-nav-button:hover {
+    -fx-background-color: #232838;
+    -fx-text-fill: #f3f4f6;
+}
+.sidebar-nav-button-active {
+    -fx-background-color: linear-gradient(to right, #6366f1, #4f46e5);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 14 10 14;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-max-width: infinity;
+}
+
+.top-bar {
+    -fx-background-color: #1a1d29;
+    -fx-padding: 16 24 16 24;
+    -fx-border-color: transparent transparent #232838 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.power-button {
+    -fx-background-color: linear-gradient(to bottom, #22c55e, #16a34a);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-padding: 10 26 10 26;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(22,163,74,0.4), 8, 0, 0, 2);
+}
+.power-button:hover { -fx-background-color: linear-gradient(to bottom, #16a34a, #15803d); }
+.power-button:selected {
+    -fx-background-color: linear-gradient(to bottom, #ef4444, #dc2626);
+    -fx-effect: dropshadow(gaussian, rgba(220,38,38,0.4), 8, 0, 0, 2);
+}
+.power-button:selected:hover { -fx-background-color: linear-gradient(to bottom, #dc2626, #b91c1c); }
+
+.secondary-button {
+    -fx-background-color: #232838;
+    -fx-text-fill: #f3f4f6;
+    -fx-background-radius: 8;
+    -fx-padding: 10 18 10 18;
+    -fx-cursor: hand;
+}
+.secondary-button:hover { -fx-background-color: #2d3348; }
+
+.panel-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f3f4f6;
+    -fx-padding: 0 0 6 4;
+}
+
+.panel-card {
+    -fx-background-color: #1f2330;
+    -fx-background-radius: 14;
+    -fx-border-color: #2a2f3f;
+    -fx-border-radius: 14;
+    -fx-padding: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 12, 0, 0, 4);
+}
+
+.event-list {
+    -fx-background-color: #1f2330;
+    -fx-background-radius: 14;
+    -fx-border-color: #2a2f3f;
+    -fx-border-radius: 14;
+}
+.event-list .list-cell { -fx-background-color: transparent; }
+.event-list .list-cell:filled:selected { -fx-background-color: #2a2f45; }
+
+.event-cell { -fx-padding: 12 10 12 10; }
+.event-cell-label { -fx-font-weight: bold; -fx-font-size: 13px; -fx-text-fill: #f3f4f6; }
+.event-cell-time { -fx-font-size: 11px; -fx-text-fill: #9ca3af; }
+.alert-row {
+    -fx-border-width: 0 0 0 4;
+    -fx-border-color: #ef4444;
+    -fx-background-color: #2a1a1e;
+}
+
+.badge {
+    -fx-background-radius: 14;
+    -fx-padding: 4 12 4 12;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+.badge-matched { -fx-background-color: linear-gradient(to right, #22c55e, #16a34a); }
+.badge-notmatched { -fx-background-color: linear-gradient(to right, #f87171, #dc2626); }
+.badge-unverified { -fx-background-color: #4b5563; }
+.badge-danger { -fx-background-color: linear-gradient(to right, #ef4444, #b91c1c); }
+
+.detail-title { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #f3f4f6; }
+.detail-line { -fx-font-size: 13px; -fx-text-fill: #9ca3af; }
+
+.play-button {
+    -fx-background-color: linear-gradient(to bottom, #6366f1, #4f46e5);
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-padding: 9 18 9 18;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(79,70,229,0.4), 8, 0, 0, 2);
+}
+.play-button:hover { -fx-background-color: linear-gradient(to bottom, #4f46e5, #4338ca); }
+
+.live-feed-box {
+    -fx-background-color: #0a0b10;
+    -fx-background-radius: 14;
+    -fx-border-color: #2a2f3f;
+    -fx-border-radius: 14;
+}
+.live-feed-placeholder { -fx-text-fill: #6b7280; -fx-font-size: 13px; }
+
+.console-area {
+    -fx-control-inner-background: #0a0b10;
+    -fx-text-fill: #a5b4c3;
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 11px;
+}
+
+.text-field, .password-field, .combo-box, .choice-box {
+    -fx-background-color: #14161f;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #2a2f3f;
+    -fx-padding: 9 12 9 12;
+    -fx-font-size: 13px;
+    -fx-text-fill: #f3f4f6;
+    -fx-prompt-text-fill: #6b7280;
+}
+.text-field:focused, .password-field:focused { -fx-border-color: #6366f1; }
+
+.brand-panel {
+    -fx-background-color: linear-gradient(to bottom right, #4338ca, #312e81, #0f0c29);
+}
+.brand-tagline {
+    -fx-text-fill: white;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+.brand-subtitle {
+    -fx-text-fill: #c4b5fd;
+    -fx-font-size: 13px;
+}
+.login-form-panel {
+    -fx-background-color: #12141c;
+}
+.top-bar-hero {
+    -fx-background-color: linear-gradient(to right, #181b28, #20233a 55%, #262a46);
+    -fx-padding: 18 28 18 28;
+    -fx-border-color: transparent transparent #2a2f45 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-effect: dropshadow(gaussian, rgba(99,102,241,0.18), 16, 0, 0, 4);
+}
+.hero-icon-badge {
+    -fx-background-color: linear-gradient(to bottom right, #818cf8, #4338ca);
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-min-width: 44px;
+    -fx-min-height: 44px;
+    -fx-max-width: 44px;
+    -fx-max-height: 44px;
+    -fx-background-radius: 12;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(79,70,229,0.55), 10, 0, 0, 2);
+}
+.hero-title { -fx-text-fill: #f8fafc; -fx-font-size: 18px; -fx-font-weight: bold; }
+.hero-subtitle { -fx-text-fill: #8b90a5; -fx-font-size: 11px; }
+
+.status-pill {
+    -fx-background-color: #1c2030;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #2a2f45;
+    -fx-padding: 6 16 6 14;
+}
+.status-dot, .status-text { -fx-font-size: 11px; -fx-font-weight: bold; }
+.status-pill-on .status-dot, .status-pill-on .status-text { -fx-text-fill: #22c55e; }
+.status-pill-off .status-dot, .status-pill-off .status-text { -fx-text-fill: #6b7280; }
